@@ -32,4 +32,16 @@ int main()
     cout << "data keempat = " << datamu[3] << endl;
     cout << "data kelima = " << datamu[4] << endl;
 
-  
+    //mengisi data melalui perulangan 
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "isikan data ke-" << (i=1) << " :";
+        cin >> datamu[i];
+    }
+
+    //menampilkan data dengan perulangan
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "data ke-" << (i+1) << " : "<< datamu[i] << endl;
+    }
+}
